@@ -13,6 +13,8 @@ Realización de un menú vertical.
 * app.js
 * main.css
 
-Se utilizara propiedades y atributos como display, selectores, pseudoselectores, etc.
+Para este ejercicio se utiliza propiedades y atributos como display, selectores, pseudoselectores, etc.
+
+vista del ejemplo:
 
 ![](assets/img/menu-vertical.jpg)
