@@ -1,55 +1,63 @@
-*{
-    box-sizing: border-box;
-}
-
+/*estilo de fuente*/
 body{
-
-}
-
-ul{
-    outline: 1px solid yellow;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    width: 220px;
-    line-height: 24px;
-}
-
-li{
-    outline: 1px solid green;
+    margin-left: 30px;
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
 }
 
+nav{
+    /*outline: 1px solid purple;*/
+    width: 200px;
+}
 
+/*quitando las viñetas y dando espaciado vertical entre elementos
+ de la lista*/
+ul{
+    /*outline: 1px solid yellow;*/
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 32px;
+}
+
+li{
+    background: #f5f5f0;
+}
+
+/*conviertiendo los elementos inline en bloque, quitando el subrayado 
+y dando relleno a la izquierda del contendor*/
 a{
-    outline: 1px solid red;
     display: block;
     text-decoration: none;
     color: #000;
     padding-left: 10px;
 }
 
+/*aplicando color de fondo al primer elemento de la lista que se
+encuentra en la etiqueta a*/
+ul li:first-child a{
+    background: #f9a91a;
+}
+
+/*aplicando color cuando el mouse se coloque encima del elemento*/
 a:hover{
     background: #e0e0d1;
 }
 
+/*dando color al momento de dar clic*/
 a:active{
     background: #333;
+    color: white;
 }
 
-ul li:first-child{
-    background: #f9a91a;
-}
-
-ul li:first-child a{
-    background: #fff;
-}
-
+/*cambiando el color al primer elemento de la lista*/
 ul li:first-child a:hover{
     background: #000;
+    color: white;
 }
 
+/*cambiando el color al mometo de dar clic al primer 
+elemento de la lista*/
 ul li:first-child a:active{
     background: #fff;
 }
